@@ -8,11 +8,11 @@ public class Controller : MonoBehaviour {
     public Rigidbody2D BallRigidBody2D;
 
     private void Awake() {
-        Application.targetFrameRate = 60;
+        //Application.targetFrameRate = 60;
     }
 
     private void Start() {
-        BallRigidBody2D.AddForce(new Vector2(1f, 10f), ForceMode2D.Impulse);
+        BallRigidBody2D.AddForce(new Vector2(1f, 20f), ForceMode2D.Impulse);
     }
 
 }
